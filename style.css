@@ -12,11 +12,11 @@ header {
 
 }
 
-.link-header{
+.link-header {
     font-weight: 400;
     font-size: 14px;
     line-height: 30%;
-    color: #17233D ;
+    color: #17233D;
     cursor: pointer;
     margin-right: 23px;
     letter-spacing: 2px;
@@ -45,22 +45,22 @@ button {
 
 }
 
-section{ 
+section {
     display: inline-block;
     margin-left: 80px;
 }
 
-h1{
+h1 {
     font-weight: 700;
-    color:#161A49;
+    color: #161A49;
     font-size: 62px;
     line-height: 82px;
     width: 500px;
     margin-bottom: 60px;
-  
+
 }
 
-p{
+p {
     font-weight: 400;
     font-size: 18px;
     color: #4B505A;
@@ -75,6 +75,39 @@ a {
     font-size: 18px;
     color: #6FBF44;
     cursor: pointer;
+}
 
-    
+@media screen and (max-width: 900px) {
+
+    header {
+        display: none;
+    }
+
+    .logo-img {
+        width: 354px;
+        height: 317px;
+        margin: 80px 20px 20px 20px;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 130px;
+        text-align: center;
+        line-height: 50px;
+        margin-top: 15px;
+
+    }
+
+    p {
+        display: none;
+    }
+
+    .link-foot {
+        margin: 70px;
+        text-align: center;
+        
+    }
 }
